@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Indie+Flower&family=Kalam:wght@300&family=Permanent+Marker&display=swap');
+
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#navigation{
+    position: absolute;
+}
+
+#header{
+}
+
+#header h1{
+    position: relative;
+    left: 75px;
+    top: 73px;
+    font-size: 45px;
+}
+
+#navigation ul{
+    float: right;
+    position: relative;
+    left: 500px;
+    top: -27px;
+
+}
+
+#navigation ul li{
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+}
+
+#header{
+    padding-top: 10px;
+    margin: auto;
+    width: 1300px;
+    height: 100px;
+    background: url("cover_top.png") no-repeat, url("cover.png")repeat-y ;
+    background-size: contain;
+}
+
+
+
+#main{
+    padding-top: 10px;
+    margin: auto;
+    width: 1300px;
+    background: url("cover.png")repeat-y;
+    background-size: contain;
+}
+
+#picture img{
+    width: 300px;
+    height: 300px;
+    border-radius: 85px;
+    box-shadow: 10px 10px 5px grey;
+    margin-left: 80px;
+    margin-top: 125px;
+
+}
+
+
+#about{
+    position: absolute;
+    margin: auto;
+}
+
+#about p{
+    position: relative;
+    top: -330px;
+    left: 430px;
+    width: 800px;
+    font-size: 45px;
+}
+
+#biography{
+    padding-top: 100px;
+    margin: auto;
+    width: 1050px;
+    font-family: 'Kalam', cursive;
+}
+
+#biography h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+#biography p{
+    text-align: center;
+    font-size: 35px;
+}
+
+#hobby{
+    padding-top: 100px;
+    margin: auto;
+    width: 1300px;
+    font-family: 'Kalam', cursive;
+    padding-left: 128px;
+}
+
+#hobby h3{
+    padding-left: 440px;
+    font-size: 50px;
+}
+
+#hobby ul{
+    margin: auto;
+    padding-left: 257px;
+    font-size: 20px;
+}
+
+#experience{
+    padding-top: 100px;
+    margin: auto;
+    width: 1050px;
+    padding-bottom: 150px;
+    font-family: 'Kalam', cursive;
+}
+
+#experience h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+#experience ul{
+    margin: auto;
+    padding-left: 353px;
+    font-size: 20px;
+}
+
+#experience li{
+    list-style-type: square;
+}
+
+#footer{
+    margin-bottom: -8px;
+}
+
+#footer p{
+    text-align: center;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#footer p:nth-of-type(1){
+    padding-top: 10px;
+    padding-left: 150px;
+}
+
+#divider1 img{
+    width: 320px;
+    height: 250px;
+    padding-left: 17px;
+}
+
+#divider1 img:hover {
+    width: 330px;
+    height: 260px;
+}
+
+#hobby ul li{
+    display: inline-block;
+    padding-right: 250px;
+}
+
+#hobby ul li:nth-of-type(1){
+    margin-left: -112px;
+}
+
+#divider2 img{
+    padding-top: 20px;
+    width: 320px;
+    height: 250px;
+    padding-left: 17px;
+}
+
+#divider2 img:hover {
+    width: 330px;
+    height: 260px;
+}
+
+#footer{
+    background: url("cover_bot.png")no-repeat;
+    margin: auto;
+    width: 1300px;
+    height: 250px;
+    background-size: contain;
+    margin-top: -17px;
+}
+
+#contact li{
+    position: relative;
+    left: 830px;
+    font-size: 20px;
+    top: -113px;
+}
+
+#social li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+#social ul{
+    position: relative;
+    left: 160px;
+    top: -15px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#header ul li a:hover{
+    color: red;
+    opacity: 0.7;
+    text-shadow: 2px 2px 5px black;
+}
+
